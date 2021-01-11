@@ -1,0 +1,59 @@
+
+        h1{
+          color:#0000ff;  
+          margin-left : 150px;   
+         
+        }
+        
+        .header *{
+      
+            border:solid ;
+        }
+      .footer{
+          background-color:#7fff00;
+          display:flex;
+          justify-content : flex-end;
+      }
+       .header{
+           background-color: #7fff00;
+           display:flex;
+           justify-content: space-between;
+
+       }  
+       .grid{ 
+           display:flex;
+           justify-content:flex-end;
+       }
+       body{
+           background-color: #808080                  
+       }
+       a:link{
+           color: cyan;
+       }
+       a:visited{
+           color: red;
+       }
+       .menu a{
+           margin:40px;
+       }
+       .item{
+          position: relative; 
+          
+       }
+       
+      .item p{
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           opacity:0;
+           
+       }
+       .item:hover p{
+           opacity:1;
+           
+       }
+       .item:hover img{
+           opacity:0.33;
+       }
+       
